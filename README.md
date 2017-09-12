@@ -1,6 +1,6 @@
 # Reddit2Reddup
 Don't like reddit's web interface! simply redirect  to Reddup.co which has better user interface with material design.
-##Installing
+## Installing
 
 - Clone the repo.
 	
