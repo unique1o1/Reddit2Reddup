@@ -4,7 +4,7 @@ Don't like reddit's web interface! simply redirect  to Reddup.co which has bette
 
 - Clone the repo.
 	
-	git clone https://github.com/unique1o1/quicksave
+	git clone https://github.com/unique1o1/Reddit2Reddup
 	
 - Load the extension into Google Chrome as an Unpacked Extension:
 
