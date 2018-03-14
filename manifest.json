@@ -1,27 +1,25 @@
 {
-    "author": "Yunik Maharjan <yunik.maharjan@gmail.com>",
-    "browser_action": {
-        "default_icon": "icon.png"
-    },
-    "content_scripts": [
-        {
-            "js": [
-                "content.js"
-            ],
-            "matches": [
-                "*://www.reddit.com/*"
-            ],
-            "exclude_matches": [
-              "*://www.reddit.com/login*"
-            ],
-            "run_at": "document_start"
-        }
-    ],
-    "description": "Reddit to reddup.co",
-    "icons": {
-        "144": "icon.png"
-    },
-    "manifest_version": 2,
-    "name": "Yunik",
-    "version": "0.2"
+  "author": "Yunik Maharjan <yunik.maharjan@gmail.com>",
+
+  "short_name": "reddit2reddup",
+
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["*://www.reddit.com/*"],
+      "exclude_matches": [
+        "*://www.reddit.com/login*",
+        "*://www.reddit.com/api/v1/*",
+        "*://www.reddit.com/api/v1/authorize*"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "description": "Reddit to reddup.co",
+  "icons": {
+    "48": "icon.png"
+  },
+  "manifest_version": 2,
+  "name": "Reddit2reddup",
+  "version": "0.2"
 }
